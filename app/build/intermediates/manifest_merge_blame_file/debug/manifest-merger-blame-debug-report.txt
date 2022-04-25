@@ -1,0 +1,199 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.placebook"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:5:5-81
+11-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.google.android.libraries.places:places:2.6.0] C:\Users\User\.gradle\caches\transforms-3\0c7f90354a7a92724fd193c489d388f7\transformed\places-2.6.0\AndroidManifest.xml:10:5-76
+13-->[com.google.android.libraries.places:places:2.6.0] C:\Users\User\.gradle\caches\transforms-3\0c7f90354a7a92724fd193c489d388f7\transformed\places-2.6.0\AndroidManifest.xml:10:22-73
+14    <uses-permission android:name="android.permission.INTERNET" /> <!-- Include required permissions for Google Maps API to run. -->
+14-->[com.google.android.libraries.places:places:2.6.0] C:\Users\User\.gradle\caches\transforms-3\0c7f90354a7a92724fd193c489d388f7\transformed\places-2.6.0\AndroidManifest.xml:11:5-67
+14-->[com.google.android.libraries.places:places:2.6.0] C:\Users\User\.gradle\caches\transforms-3\0c7f90354a7a92724fd193c489d388f7\transformed\places-2.6.0\AndroidManifest.xml:11:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\User\.gradle\caches\transforms-3\bc794b7cc00d56f077356ac669c5b932\transformed\play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\User\.gradle\caches\transforms-3\bc794b7cc00d56f077356ac669c5b932\transformed\play-services-maps-18.0.2\AndroidManifest.xml:23:22-76
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\User\.gradle\caches\transforms-3\bc794b7cc00d56f077356ac669c5b932\transformed\play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\User\.gradle\caches\transforms-3\bc794b7cc00d56f077356ac669c5b932\transformed\play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\User\.gradle\caches\transforms-3\bc794b7cc00d56f077356ac669c5b932\transformed\play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+20
+21    <queries>
+21-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\User\.gradle\caches\transforms-3\bc794b7cc00d56f077356ac669c5b932\transformed\play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+22
+23        <!-- Needs to be explicitly declared on Android R+ -->
+24        <package android:name="com.google.android.apps.maps" />
+24-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\User\.gradle\caches\transforms-3\bc794b7cc00d56f077356ac669c5b932\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+24-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\User\.gradle\caches\transforms-3\bc794b7cc00d56f077356ac669c5b932\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+25    </queries>
+26
+27    <application
+27-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:8:5-41:19
+28        android:allowBackup="true"
+28-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:9:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.7.0] C:\Users\User\.gradle\caches\transforms-3\14c42840306e59585b2b176c08ea8aac\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:10:9-43
+32        android:label="@string/app_name"
+32-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:11:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:12:9-54
+34        android:supportsRtl="true"
+34-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:13:9-35
+35        android:testOnly="true"
+36        android:theme="@style/Theme.Placebook" >
+36-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:14:9-47
+37
+38        <!--
+39             TODO: Before you run your application, you need a Google Maps API key.
+40
+41             To get one, follow the directions here:
+42
+43                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+44
+45             Once you have your API key (it starts with "AIza"), define a new property in your
+46             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+47             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+48        -->
+49        <meta-data
+49-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:27:9-29:71
+50            android:name="com.google.android.geo.API_KEY"
+50-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:28:13-58
+51            android:value="AIzaSyAf4g9wy3KFc2uoHOeQu5JRXFqURDzx3SM" />
+51-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:29:13-68
+52
+53        <activity
+53-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:31:9-40:20
+54            android:name="com.example.placebook.ui.MapsActivity"
+54-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:32:13-44
+55            android:exported="true"
+55-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:33:13-36
+56            android:label="@string/title_activity_maps" >
+56-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:34:13-56
+57            <intent-filter>
+57-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:35:13-39:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:36:17-69
+58-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:36:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:38:17-77
+60-->C:\Users\User\AndroidStudioProjects\plasesave\app\src\main\AndroidManifest.xml:38:27-74
+61            </intent-filter>
+62        </activity>
+63        <activity
+63-->[com.google.android.libraries.places:places:2.6.0] C:\Users\User\.gradle\caches\transforms-3\0c7f90354a7a92724fd193c489d388f7\transformed\places-2.6.0\AndroidManifest.xml:14:9-20:20
+64            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+64-->[com.google.android.libraries.places:places:2.6.0] C:\Users\User\.gradle\caches\transforms-3\0c7f90354a7a92724fd193c489d388f7\transformed\places-2.6.0\AndroidManifest.xml:15:13-91
+65            android:exported="false"
+65-->[com.google.android.libraries.places:places:2.6.0] C:\Users\User\.gradle\caches\transforms-3\0c7f90354a7a92724fd193c489d388f7\transformed\places-2.6.0\AndroidManifest.xml:16:13-37
+66            android:label="@string/places_autocomplete_label"
+66-->[com.google.android.libraries.places:places:2.6.0] C:\Users\User\.gradle\caches\transforms-3\0c7f90354a7a92724fd193c489d388f7\transformed\places-2.6.0\AndroidManifest.xml:17:13-62
+67            android:theme="@style/PlacesAutocompleteOverlay"
+67-->[com.google.android.libraries.places:places:2.6.0] C:\Users\User\.gradle\caches\transforms-3\0c7f90354a7a92724fd193c489d388f7\transformed\places-2.6.0\AndroidManifest.xml:18:13-61
+68            android:windowSoftInputMode="adjustResize" >
+68-->[com.google.android.libraries.places:places:2.6.0] C:\Users\User\.gradle\caches\transforms-3\0c7f90354a7a92724fd193c489d388f7\transformed\places-2.6.0\AndroidManifest.xml:19:13-55
+69        </activity> <!-- Needs to be explicitly declared on P+ -->
+70        <uses-library
+70-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\User\.gradle\caches\transforms-3\bc794b7cc00d56f077356ac669c5b932\transformed\play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+71            android:name="org.apache.http.legacy"
+71-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\User\.gradle\caches\transforms-3\bc794b7cc00d56f077356ac669c5b932\transformed\play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+72            android:required="false" />
+72-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\User\.gradle\caches\transforms-3\bc794b7cc00d56f077356ac669c5b932\transformed\play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+73
+74        <service
+74-->[androidx.room:room-runtime:2.4.2] C:\Users\User\.gradle\caches\transforms-3\9ac0f339170f8eaf5bbff8d523e57353\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
+75            android:name="androidx.room.MultiInstanceInvalidationService"
+75-->[androidx.room:room-runtime:2.4.2] C:\Users\User\.gradle\caches\transforms-3\9ac0f339170f8eaf5bbff8d523e57353\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
+76            android:directBootAware="true"
+76-->[androidx.room:room-runtime:2.4.2] C:\Users\User\.gradle\caches\transforms-3\9ac0f339170f8eaf5bbff8d523e57353\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
+77            android:exported="false" />
+77-->[androidx.room:room-runtime:2.4.2] C:\Users\User\.gradle\caches\transforms-3\9ac0f339170f8eaf5bbff8d523e57353\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
+78
+79        <activity
+79-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\User\.gradle\caches\transforms-3\ea7e6dda070765f77aa4a6bdca9f5486\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+80            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+80-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\User\.gradle\caches\transforms-3\ea7e6dda070765f77aa4a6bdca9f5486\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+81            android:exported="false"
+81-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\User\.gradle\caches\transforms-3\ea7e6dda070765f77aa4a6bdca9f5486\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+82            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+82-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\User\.gradle\caches\transforms-3\ea7e6dda070765f77aa4a6bdca9f5486\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+83
+84        <meta-data
+84-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\User\.gradle\caches\transforms-3\75be75bd5a846362467761065f8bd6e7\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+85            android:name="com.google.android.gms.version"
+85-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\User\.gradle\caches\transforms-3\75be75bd5a846362467761065f8bd6e7\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+86            android:value="@integer/google_play_services_version" />
+86-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\User\.gradle\caches\transforms-3\75be75bd5a846362467761065f8bd6e7\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+87
+88        <provider
+88-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\ce914e921e3012c16c9e9cefc1936211\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+89            android:name="androidx.startup.InitializationProvider"
+89-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\ce914e921e3012c16c9e9cefc1936211\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+90            android:authorities="com.example.placebook.androidx-startup"
+90-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\ce914e921e3012c16c9e9cefc1936211\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+91            android:exported="false" >
+91-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\ce914e921e3012c16c9e9cefc1936211\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+92            <meta-data
+92-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\ce914e921e3012c16c9e9cefc1936211\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+93                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+93-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\ce914e921e3012c16c9e9cefc1936211\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+94                android:value="androidx.startup" />
+94-->[androidx.emoji2:emoji2:1.0.0] C:\Users\User\.gradle\caches\transforms-3\ce914e921e3012c16c9e9cefc1936211\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+95            <meta-data
+95-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\User\.gradle\caches\transforms-3\af9258d83a46771bcc1cb3ed6ca7936f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+96                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+96-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\User\.gradle\caches\transforms-3\af9258d83a46771bcc1cb3ed6ca7936f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+97                android:value="androidx.startup" />
+97-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\User\.gradle\caches\transforms-3\af9258d83a46771bcc1cb3ed6ca7936f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+98        </provider>
+99
+100        <service
+100-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\User\.gradle\caches\transforms-3\3a01c58df4b390c35736ef828d623ed1\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+101            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+101-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\User\.gradle\caches\transforms-3\3a01c58df4b390c35736ef828d623ed1\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+102            android:exported="false" >
+102-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\User\.gradle\caches\transforms-3\3a01c58df4b390c35736ef828d623ed1\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+103            <meta-data
+103-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\User\.gradle\caches\transforms-3\3a01c58df4b390c35736ef828d623ed1\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+104                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+104-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\User\.gradle\caches\transforms-3\3a01c58df4b390c35736ef828d623ed1\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+105                android:value="cct" />
+105-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\User\.gradle\caches\transforms-3\3a01c58df4b390c35736ef828d623ed1\transformed\transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
+106        </service>
+107        <service
+107-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\User\.gradle\caches\transforms-3\2ba52a26e919d36f967cc220b7717e3a\transformed\transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+108            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+108-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\User\.gradle\caches\transforms-3\2ba52a26e919d36f967cc220b7717e3a\transformed\transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+109            android:exported="false"
+109-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\User\.gradle\caches\transforms-3\2ba52a26e919d36f967cc220b7717e3a\transformed\transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+110            android:permission="android.permission.BIND_JOB_SERVICE" >
+110-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\User\.gradle\caches\transforms-3\2ba52a26e919d36f967cc220b7717e3a\transformed\transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+111        </service>
+112
+113        <receiver
+113-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\User\.gradle\caches\transforms-3\2ba52a26e919d36f967cc220b7717e3a\transformed\transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+114            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+114-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\User\.gradle\caches\transforms-3\2ba52a26e919d36f967cc220b7717e3a\transformed\transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
+115            android:exported="false" />
+115-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\User\.gradle\caches\transforms-3\2ba52a26e919d36f967cc220b7717e3a\transformed\transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+116    </application>
+117
+118</manifest>
